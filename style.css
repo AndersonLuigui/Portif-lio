@@ -8,6 +8,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
+    margin: 0;
+    padding: 0;
     
 }
 
@@ -129,3 +131,5 @@ p {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
+
+
