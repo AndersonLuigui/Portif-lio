@@ -4,4 +4,80 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     display: block;
     margin: 8px;
+    background-image: url("./img/fundo7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    
+}
+
+
+div {
+    display: block;
+}
+
+
+
+.tamanho {
+    padding: 0px 50px;
+}
+
+.container {
+    padding: 0px 100px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 15px;
+}
+
+li {
+    display: list-item;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.center {
+    text-align: center;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #5bbe42;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    margin: 15px;
+    text-align: center;
+}
+
+footer p {
+    margin: 1px;
+}
+
+footer img {
+    width: 48px;
+    height: 48px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
