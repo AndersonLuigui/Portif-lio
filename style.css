@@ -4,7 +4,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     display: block;
     margin: 8px;
-    background-image: url("./img/fundo7.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url("./img/fundo7.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
@@ -14,6 +14,13 @@ body {
 
 div {
     display: block;
+}
+
+h1 {
+    color: #5bbe42;
+}
+h2 {
+    color: red;
 }
 
 
